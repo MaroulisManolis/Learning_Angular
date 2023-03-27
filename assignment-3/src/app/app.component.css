@@ -1,0 +1,14 @@
+.secretPassContainer {
+    box-sizing: border-box;
+    border: 2px solid;
+    height: 4.5rem;
+}
+
+#secretPass {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.white-text {
+    color: white;
+}
