@@ -1,1 +1,17 @@
-<p>game-control works!</p>
+<div class="row">
+    <div class="col-xs-6">
+        <button 
+            class="btn btn-success"
+            (click)="onStartGame()">
+                Start Game!
+        </button>
+        <p>Num is: {{ num }}</p>
+    </div>
+    <div class="col-xs-6">
+        <button 
+            class="btn btn-danger"
+            (click)="onStopGame()">
+                Stop Game!
+        </button>
+    </div>
+</div>
